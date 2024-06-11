@@ -6,10 +6,12 @@ const Inicio = () => {
  
     return (
         <div>
-            <Link to='/inicio'>
+          <h2>Título da página</h2>
+            <p>Outra tela Inicial</p>
+       
                 <img className='img-fluid' src={logo}
                 alt='logo'></img>
-            </Link>
+       
         </div>
     )
  
